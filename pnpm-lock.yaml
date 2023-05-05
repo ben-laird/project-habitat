@@ -115,12 +115,6 @@ importers:
 
   packages/config/tsconfig: {}
 
-  typelaunch/templates/external: {}
-
-  typelaunch/templates/external-vite: {}
-
-  typelaunch/templates/internal: {}
-
 packages:
 
   /@ampproject/remapping@2.2.1:
