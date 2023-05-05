@@ -1,0 +1,82 @@
+{
+  "folders": [
+    { "name": "TypeLaunch Guide", "path": "./typelaunch" },
+    { "name": "Main App", "path": "./apps/main" },
+    { "name": "Main", "path": "." }
+  ],
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "yoavbls.pretty-ts-errors",
+      "Prisma.prisma",
+      "svelte.svelte-vscode",
+      "bradlc.vscode-tailwindcss",
+      "Gruntfuggly.todo-tree",
+      "ZixuanChen.vitest-explorer",
+      "redhat.vscode-yaml"
+    ]
+  },
+  "settings": {
+    "todo-tree.highlights.defaultHighlight": {
+      "opacity": 50,
+      "gutterIcon": true,
+      "icon": "list-unordered",
+      "iconColour": "#ffffff",
+      "foreground": "#ffffff",
+      "background": "#b8b8b8"
+    },
+    "todo-tree.highlights.customHighlight": {
+      "TODO": {
+        "icon": "note",
+        "iconColour": "#00a9fe",
+        "foreground": "#a0dcf9",
+        "background": "#0076cb"
+      },
+      "BUG": {
+        "icon": "bug",
+        "iconColour": "#f4e436",
+        "foreground": "#f3e97c",
+        "background": "#665f2d"
+      },
+      "HACK": {
+        "icon": "tools",
+        "background": "#00aa00"
+      },
+      "FIXME": {
+        "icon": "flame",
+        "iconColour": "#f44336",
+        "foreground": "#f44336",
+        "background": "#592c2c"
+      },
+      "XXX": {
+        "icon": "x"
+      },
+      "DONE": {
+        "icon": "check",
+        "iconColour": "#009900",
+        "foreground": "#64dd17",
+        "background": "#008800"
+      }
+    },
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "- [ ]",
+      "- [x]",
+      "DONE",
+      "FIXIT",
+      "FIX"
+    ],
+    "todo-tree.general.tagGroups": {
+      "FIX": ["FIX", "FIXME", "FIXIT"],
+      "DONE": ["DONE", "- [x]"],
+      "TODO": ["TODO", "- [ ]"]
+    }
+  }
+}
